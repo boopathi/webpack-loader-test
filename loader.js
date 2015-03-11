@@ -10,7 +10,7 @@ module.exports.pitch = function(req, prev, source) {
 	if(this[__dirname] === undefined) {
 		console.log('loader is used without its plugin');
 	} else {
-		this[__dirname](this.resourcePath, source);
+		this[__dirname](this.resourcePath);
 	}
 	return '';
 };
